@@ -12,3 +12,9 @@ As you can guess, it swaps high and low nibbles in each byte.
 It works as shell filter (example: cat ROM.bin | zerohnibble > ROML.bin)
 
 As you can guess, it zeroes the high nibble in each byte.
+
+3) `mooncresta_decrypt`
+
+This shell filter will decrypt a Moon Cresta Nichibutsu "black-box" ROM dump 
+to be used on a plain Z80 game PCB.
+
