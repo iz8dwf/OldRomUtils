@@ -15,6 +15,6 @@ As you can guess, it zeroes the high nibble in each byte.
 
 3) `mooncresta_decrypt`
 
-This shell filter will decrypt a Moon Cresta Nichibutsu "black-box" ROM dump 
-to be used on a plain Z80 game PCB.
+This shell filter, when used without command line arguments, will decrypt a Moon Cresta Nichibutsu "black-box" ROM dump to be used on a plain Z80 game PCB.
+If the '-e' command line argument is given, it will convert a plain Z80 dump into an encrypted binary suitable for a "black-box" Moon Cresta CPU or MAME emulator (for example if you want to verify test ROMs or modify game ROMs).
 
